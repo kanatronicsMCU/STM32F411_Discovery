@@ -1,0 +1,1 @@
+usb_virtual_com_port\startup_stm32f411xe.o: startup_stm32f411xe.s
