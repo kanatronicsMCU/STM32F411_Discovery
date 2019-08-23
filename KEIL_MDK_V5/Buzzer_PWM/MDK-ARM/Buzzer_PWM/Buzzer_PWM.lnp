@@ -1,0 +1,25 @@
+--cpu=Cortex-M4.fp
+"buzzer_pwm\startup_stm32f411xe.o"
+"buzzer_pwm\main.o"
+"buzzer_pwm\stm32f4xx_it.o"
+"buzzer_pwm\stm32f4xx_hal_msp.o"
+"buzzer_pwm\stm32f4xx_hal_tim.o"
+"buzzer_pwm\stm32f4xx_hal_tim_ex.o"
+"buzzer_pwm\stm32f4xx_hal_rcc.o"
+"buzzer_pwm\stm32f4xx_hal_rcc_ex.o"
+"buzzer_pwm\stm32f4xx_hal_flash.o"
+"buzzer_pwm\stm32f4xx_hal_flash_ex.o"
+"buzzer_pwm\stm32f4xx_hal_flash_ramfunc.o"
+"buzzer_pwm\stm32f4xx_hal_gpio.o"
+"buzzer_pwm\stm32f4xx_hal_dma_ex.o"
+"buzzer_pwm\stm32f4xx_hal_dma.o"
+"buzzer_pwm\stm32f4xx_hal_pwr.o"
+"buzzer_pwm\stm32f4xx_hal_pwr_ex.o"
+"buzzer_pwm\stm32f4xx_hal_cortex.o"
+"buzzer_pwm\stm32f4xx_hal.o"
+"buzzer_pwm\stm32f4xx_hal_exti.o"
+"buzzer_pwm\system_stm32f4xx.o"
+--library_type=microlib --strict --scatter "Buzzer_PWM\Buzzer_PWM.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Buzzer_PWM.map" -o Buzzer_PWM\Buzzer_PWM.axf

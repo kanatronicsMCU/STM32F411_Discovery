@@ -1,0 +1,25 @@
+--cpu=Cortex-M4.fp
+"pushbutton_ext0\startup_stm32f411xe.o"
+"pushbutton_ext0\main.o"
+"pushbutton_ext0\stm32f4xx_it.o"
+"pushbutton_ext0\stm32f4xx_hal_msp.o"
+"pushbutton_ext0\stm32f4xx_hal_tim.o"
+"pushbutton_ext0\stm32f4xx_hal_tim_ex.o"
+"pushbutton_ext0\stm32f4xx_hal_rcc.o"
+"pushbutton_ext0\stm32f4xx_hal_rcc_ex.o"
+"pushbutton_ext0\stm32f4xx_hal_flash.o"
+"pushbutton_ext0\stm32f4xx_hal_flash_ex.o"
+"pushbutton_ext0\stm32f4xx_hal_flash_ramfunc.o"
+"pushbutton_ext0\stm32f4xx_hal_gpio.o"
+"pushbutton_ext0\stm32f4xx_hal_dma_ex.o"
+"pushbutton_ext0\stm32f4xx_hal_dma.o"
+"pushbutton_ext0\stm32f4xx_hal_pwr.o"
+"pushbutton_ext0\stm32f4xx_hal_pwr_ex.o"
+"pushbutton_ext0\stm32f4xx_hal_cortex.o"
+"pushbutton_ext0\stm32f4xx_hal.o"
+"pushbutton_ext0\stm32f4xx_hal_exti.o"
+"pushbutton_ext0\system_stm32f4xx.o"
+--library_type=microlib --strict --scatter "PushButton_EXT0\PushButton_EXT0.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "PushButton_EXT0.map" -o PushButton_EXT0\PushButton_EXT0.axf
